@@ -9,7 +9,6 @@
 #arquivo de configuração de senha
 source user_ssh.conf
 
-
 #Mostra o uso correto do script
 function PrintUsage() {
 
@@ -19,8 +18,8 @@ function PrintUsage() {
 	echo -e "\n-s server hostname ou ip."
 	echo -e "\n-h Mostra este help."
 	echo -e "\n-v Mostra a versão deste script."
-    echo
-    echo "OBS: A senha para o usário informado deve estar no aqruivo user_ssh.conf!"
+        echo
+        echo "OBS: A senha para o usário informado deve estar no aqruivo user_ssh.conf!"
 	sleep 2
 	exit 1
 
@@ -83,7 +82,6 @@ if [ "$DO_HELP" == 1 ]; then
 		PrintUsage
 	
 fi
-
 
 if [ "$DO_VERSION" == 1 ]; then
 		
